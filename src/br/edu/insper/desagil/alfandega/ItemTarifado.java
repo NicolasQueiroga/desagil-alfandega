@@ -7,7 +7,8 @@ public class ItemTarifado extends Item{
 		super(nome, valor, rate);
 		this.tarifa = tarifa;
 	}
-
+	
+	@Override
 	public double getTarifa() {
 		return this.tarifa;
 	}
